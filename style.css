@@ -101,12 +101,13 @@ p{
 }
 .single-work img{
     width: 30%;
-    margin-left: 1%;
+    padding-left: 16px;
 }
 .work-area{
     background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+	width: 100%;
 }
 h5{
     color: darkgray;
@@ -117,10 +118,15 @@ h5{
 .clients{
     text-align: center;
 }
+.img-hover:hover{
+	transform: scale(1.1);
+	transition: 2s;
+	border-radius: 20px;
+}
 .box {
 	background-color: red;
-	height: 100px;
-	width: 100px;
+	height: 90px;
+	width: 90px;
 	clear: both;
 	left: 45%;
 	top: 5%;
@@ -141,20 +147,21 @@ h5{
     background: linear-gradient(to bottom right, red, yellow);
 }
 .box2 {
-	height: 70px;
-	width: 100px;
+	text-align: center;
+	color: white;
+	width: 290px;
 	background-color: orange; 
 	animation-name: pranab;
 	animation-duration: 10s;
 	position: relative;
-	margin-top: 10%;
+	margin-top: 15%;
 	left: 0%;
 	animation-iteration-count: infinite;
     border-radius: 15px 50px;
 }
 @keyframes pranab {
 	0%   {background-color:red; left:0px; top:0px;}
-    40%  {background-color:yellow; left:92%; top:10px;}
+    40%  {background-color:tomato; left:77%; top:10px;}
     100% {background-color:red; left:0px; top:0px;}
 }
 footer p{
