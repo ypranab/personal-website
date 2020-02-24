@@ -95,15 +95,15 @@ p{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
 }
-.single-experience{
+.single-work{
     margin-left: 5%;
     float: left;
 }
-.single-experience img{
+.single-work img{
     width: 30%;
     margin-left: 1%;
 }
-.experience-area{
+.work-area{
     background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
     background-position: left;
@@ -116,6 +116,46 @@ h5{
 }
 .clients{
     text-align: center;
+}
+.box {
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	clear: both;
+	left: 45%;
+	top: 5%;
+	position: relative;
+	transition: 2s;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	box-shadow: 2px 2px 2px #2bbbad;
+	border-radius: 0 30% 0 30%;
+}
+.box:hover {
+	background-color: orange;
+	transform: rotate(-540deg);
+}
+#grad {
+    background: linear-gradient(to bottom right, red, yellow);
+}
+.box2 {
+	height: 70px;
+	width: 100px;
+	background-color: orange; 
+	animation-name: pranab;
+	animation-duration: 10s;
+	position: relative;
+	margin-top: 10%;
+	left: 0%;
+	animation-iteration-count: infinite;
+    border-radius: 15px 50px;
+}
+@keyframes pranab {
+	0%   {background-color:red; left:0px; top:0px;}
+    40%  {background-color:yellow; left:92%; top:10px;}
+    100% {background-color:red; left:0px; top:0px;}
 }
 footer p{
     text-align: center;
