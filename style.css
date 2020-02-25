@@ -42,6 +42,7 @@ h2{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     width: 100%;
+	background-size:cover;
 }
 .half-width-left{
     width: 30%;
@@ -94,6 +95,7 @@ p{
 .dream-area{
     background-image: url("images/biography-bg.png");
     background-repeat: no-repeat;
+	background-size:cover;
 }
 .single-work{
     margin-left: 5%;
@@ -108,6 +110,7 @@ p{
     background-repeat: no-repeat;
     background-position: left;
 	width: 100%;
+	
 }
 h5{
     color: darkgray;
